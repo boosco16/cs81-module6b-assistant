@@ -25,7 +25,6 @@ PersonalAssistant.prototype.reportMood = function() {
   console.log("Mood:", this.mood);
 };
 
-// ---- SIMULATING A DAY ----
 let jarvis = new PersonalAssistant("Jarvis");
 
 jarvis.addTask("Finish CS 81 Assignments");
